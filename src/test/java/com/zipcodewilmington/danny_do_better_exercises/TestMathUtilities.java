@@ -36,9 +36,9 @@ public class TestMathUtilities {
         // : Given
         short baseValue = 16384;
         short addedValue = 7;
-        short expected = 32767;
+        short expected = 16391;
         // : When
-        short actual = primativeTypes.add(baseValue, addedValue);
+        short actual = (short) primativeTypes.add(baseValue, addedValue);
         // : Then
         assertEquals(expected,actual);
     }
