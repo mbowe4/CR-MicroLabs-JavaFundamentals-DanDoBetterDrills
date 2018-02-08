@@ -146,7 +146,7 @@ public class TestMathUtilities {
         // : When
         float actualFloat = primativeTypes.subtract(baseValue,difference);
         // : Then
-        assertEquals(expectedFloat,actualFloat, 0);
+        assertEquals(expectedFloat,actualFloat, 0.003);
     }
     @Test
     public void testSubtractions5() {
@@ -296,7 +296,7 @@ public class TestMathUtilities {
         // : Given
         byte multiplicand = 16;
         byte multiplier = 14;
-        byte expectedByte = 64;
+        byte expectedByte = -32;
         // : When
         byte actualByte = primativeTypes.multiply(multiplicand, multiplier);
         // : Then

@@ -221,9 +221,10 @@ public class MathUtilities {
      * @param multiplier value to multiply by
      * @return product of `multiplicand` by `multiplier`
      */
-    public Byte multiply(byte multiplicand, byte multiplier) {
+    public byte multiply(byte multiplicand, byte multiplier) {
 
         return (byte) (multiplicand * multiplier);
+
     }
 
     /**
